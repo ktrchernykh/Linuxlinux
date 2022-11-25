@@ -1,0 +1,16 @@
+   0 mkdir rt start
+   1 cd start
+   2 touch 1.txt
+   3 nano 1.txt
+   4 cd
+   5 mkdir rt task
+   6 cd task
+   7 cd
+   8 cd start
+   9 cp 1.txt ~/task/
+  10 cd
+  11 cd task
+  12 nano 1.txt
+  13 cd
+  14 touch history.txt
+  15 history >> history.txt
